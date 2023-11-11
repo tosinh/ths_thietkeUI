@@ -1,0 +1,62 @@
+main {
+    margin-top: 50px;
+}
+
+.content-blog {
+    margin-top: 20px;
+}
+
+.post-blog {
+    margin: 40px 0;
+}
+
+.post-blog-item {
+    position: relative;
+    display: flex;
+}
+
+.post-blog-item div {
+    padding: 10px;
+}
+
+.post-blog-item img {}
+
+.post-blog-item span {
+    font-size: 24px;
+}
+
+.post-blog-item p {
+    font-size: 16px;
+}
+
+.post-blog-item a {
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+
+.new-post-blog {
+    margin-top: 40px;
+}
+
+.new-post-blog-item {
+    position: relative;
+    display: flex;
+    margin: 16px 0;
+}
+
+.new-post-blog-item img {}
+
+.new-post-blog-item div {
+    padding: 10px;
+}
+
+.new-post-blog-item span {
+    font-size: 16px;
+}
+
+.new-post-blog-item a {
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
