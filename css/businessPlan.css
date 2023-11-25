@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+.business {
+    margin-top: 80px;
+    width: 520px;
+}
+
+.business-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.input-group span {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.input-group input {
+    display: flex;
+    justify-content: end;
+    flex: 1;
+}
+
+.input-group img {
+    height: 38px;
+    width: 126px;
+
+}
+
+.input-group img:last-child {
+    margin-left: 10px;
+}
+
+.input-group div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+
+.button-pay-cancel {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
