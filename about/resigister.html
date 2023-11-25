@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login</title>
+    <title>Register</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
@@ -28,7 +28,7 @@
                             <li><a href="./blog.html">Blog</a></li>
                             <li><a href="#">Our Tour</a></li>
                             <li><a href="#">Contact</a></li>
-                            <li><a href="./about/login.html">Login</a></li>
+                            <li><a href="./login.html">Login</a></li>
                         </ul>
                     </div>
                 </div>
@@ -38,19 +38,35 @@
         <section class="login">
             <div class="container">
                 <!-- <img src="../image/bg_login.png" alt="bg-login"> -->
-                <h3>Welcome</h3>
+                <h3>Create Account</h3>
                 <div class="row justify-content-between flex-column">
                     <div class="col">
                         <div class="login-input">
-                            <div class="input-group">
+                            <div class="input-group d-flex align-items-center">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1"><i
+                                            class="fa-solid fa-user"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="First name" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group d-flex align-items-center">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1"><i
+                                            class="fa-solid fa-user"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Last name" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group d-flex align-items-center">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="basic-addon1"><i
                                             class="fa-solid fa-envelope"></i></span>
                                 </div>
-                                <input type="text" class="form-control" placeholder="Enter your email"
-                                    aria-label="Username" aria-describedby="basic-addon1">
+                                <input type="text" class="form-control" placeholder="Email" aria-label="Username"
+                                    aria-describedby="basic-addon1">
                             </div>
-                            <div class="input-group">
+                            <div class="input-group d-flex align-items-center">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="basic-addon1"><i
                                             class="fa-solid fa-lock"></i></span>
@@ -59,33 +75,23 @@
                                 <input type="password" class="form-control" placeholder="Password" aria-label="Password"
                                     aria-describedby="basic-addon1">
                             </div>
-                            <div>
-                                <a href="">Forgot Password?</a>
+                            <div class="input-group d-flex align-items-center">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1"><i
+                                            class="fa-solid fa-lock"></i></span>
+                                </div>
+
+                                <input type="password" class="form-control" placeholder="Confirm Password"
+                                    aria-label="Password" aria-describedby="basic-addon1">
                             </div>
-                            <div>
+                            <div class="d-flex justify-content-center">
                                 <div class="input-group-append">
-                                    <button class="btn-login" type="button">Login</button>
+                                    <button class="btn-login" type="button">Register</button>
                                 </div>
                             </div>
                         </div>
+
                     </div>
-                    <div class="col flex-column">
-                        <span class="span-or">OR</span>
-                        <div class="login-social">
-                            <div class="shadow bg-white rounded"><a href="#"><img src="../image/GG.png" alt="GG"></a>
-                            </div>
-                            <div class="shadow bg-white rounded"><a href="#"><img src="../image/FB.png" alt="FB"></a>
-                            </div>
-                            <div class="shadow bg-white rounded"><a href="#"><img src="../image/Apple.png"
-                                        alt="Apple"></a></div>
-                        </div>
-                        <div class="register">
-                            <span>Don’t have account?</span>
-                            <span><a href="./resigister.html">Register now >>></a></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

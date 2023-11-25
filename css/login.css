@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
 .login {
     background-image: url("../image/bg_login.png");
     height: 100vh;
